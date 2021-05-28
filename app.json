@@ -1,0 +1,12 @@
+{
+  "name": "NewsWeather",
+  "displayName": "NewsWeather",
+  "expo": {
+    "name": "NewsWeather",
+    "slug": "NewsWeather",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

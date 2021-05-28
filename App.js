@@ -4,8 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 /* Importando paginas */
-import Home from './src/Home/Home';
-import Consulta from './src/Consulta/Consulta';
+import Home from './src/screens/Home/Home';
+import Consulta from './src/screens/Consulta/Consulta';
 
 const Stack = createStackNavigator();
 

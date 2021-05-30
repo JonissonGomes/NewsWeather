@@ -1,10 +1,13 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, SafeAreaView, Text } from 'react-native'
+import styles from './Index';
 
 export default function Consulta() {
     return (
-        <View>
-            <Text>Consulta</Text>
-        </View>
+        <SafeAreaView style={styles.container}>
+            <View>
+                <Text>Inicio</Text>
+            </View>
+        </SafeAreaView>
     )
 }

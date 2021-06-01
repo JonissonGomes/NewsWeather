@@ -86,8 +86,9 @@ const styles = StyleSheet.create({
         height: 300,
         borderRadius: 8,
     },
-
+    
     row: {
+        flexWrap: 'wrap',
         flexDirection: 'row'
     },
 
@@ -96,7 +97,7 @@ const styles = StyleSheet.create({
     },
 
     boxMoreInfo: {
-        marginTop: 40,
+        marginTop: 30,
         marginLeft: 40,
         marginRight: 40,
         flexDirection: 'column',
